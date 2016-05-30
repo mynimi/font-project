@@ -1,0 +1,27 @@
+- var page = { title: "Brush Lettering Project", subtitle: "Fourteen Dreams Galerie", author: "Myriam Frisano" }
+
+doctype html
+html(lang="de")
+    include includes/head.jade
+
+    body.gallery
+        include includes/nav.jade
+
+        header
+            include svg/font_gallery.svg
+
+        .container
+            h1 Galerie
+            p Eine Reihe von Beispielen unterschiedlicher Verwendungen von Fourteen Dreams
+            p Die Beispiele verwenden Ressourcen von #[a(href="http://unsplash.com") Unsplash] und #[a(href="http://graphicburger.com/") GraphicBurger]
+            br
+            .masonry
+                - for (var i = 1; i < 15; i++) {
+                    .img
+                        a(href="/font-project/img/font/"+i+".jpg" data-lity)
+                            img(src="/font-project/img/font/"+i+".jpg")
+                - }
+
+        include includes/footer.jade
+    // body end
+// html end

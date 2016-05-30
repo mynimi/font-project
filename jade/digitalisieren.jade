@@ -1,0 +1,39 @@
+- var page = { title: "Brush Lettering Project", subtitle: "Digitalisieren", author: "Myriam Frisano" }
+
+doctype html
+html(lang="de")
+    include includes/head.jade
+
+    body
+        include includes/nav.jade
+
+        header
+            include svg/meaning.svg
+
+        .container
+            include:markdown content/digitalisieren.md
+            
+            .masonry
+                .img
+                    a(href="https://www.instagram.com/p/BFmbMLkhMNt/embed" data-lity)
+                        img(src="/font-project/img/digital/aninahimsa.jpg")
+                .img
+                    a(href="https://www.instagram.com/p/BDk5X5vBMNn/embed" data-lity)
+                        img(src="/font-project/img/digital/d.jpg")
+                .img
+                    a(href="https://www.instagram.com/p/BDG8Hw8hMLC/embed" data-lity)
+                        img(src="/font-project/img/digital/f.jpg")
+                .img
+                    a(href="https://www.instagram.com/p/BFTdat0hMKt/embed" data-lity)
+                        img(src="/font-project/img/digital/i.jpg")
+                .img
+                    a(href="https://www.instagram.com/p/BFTgle1hMP7/embed" data-lity)
+                        img(src="/font-project/img/digital/k.jpg")
+                .img
+                    a(href="https://www.instagram.com/p/BD0XyL-BMOX//embed" data-lity)
+                        img(src="/font-project/img/digital/lig.jpg")
+
+
+        include includes/footer.jade
+    // body end
+// html end

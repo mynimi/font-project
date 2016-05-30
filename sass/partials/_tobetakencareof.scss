@@ -1,0 +1,41 @@
+// gallery
+.gallery{
+    .container{
+        max-width: 1600px;
+    }
+}
+.masonry{
+    background: black;
+    width: 100%;
+    @include flexbox(row, wrap, flex-start, flex-start);
+
+    .img{
+        width: (100% / 4);
+        font-size: 0;
+        padding: 10px;
+        box-sizing: border-box;
+
+        @media screen and (max-width: 780px){
+            width: 50%;
+        }
+        @media screen and (max-width: 500px){
+            width: 100%;
+        }
+    }
+}
+
+.grid{
+    @include flexbox(row, wrap, space-between, flex-start);
+
+    .box{
+        width: (100% / 3);
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+}

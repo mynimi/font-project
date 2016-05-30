@@ -1,0 +1,18 @@
+- var page = { title: "Brush Lettering Project", subtitle: "Wieso ein Brush Lettering Font", author: "Myriam Frisano" }
+
+doctype html
+html(lang="de")
+    include includes/head.jade
+
+    body
+        include includes/nav.jade
+
+        header
+            include svg/motivation.svg
+
+        .container
+            include:markdown content/motivation.md
+
+        include includes/footer.jade
+    // body end
+// html end

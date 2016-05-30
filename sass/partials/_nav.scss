@@ -1,0 +1,171 @@
+body{
+    margin-top: 55px;
+}
+
+.menu{
+    background: $menu_bg;
+    width: 100%;
+    padding: 3px 7px;
+    box-sizing: border-box;
+    text-align: $text_align;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: .3s all ease;
+    height: 55px;
+
+    ul,
+    li{
+        margin: 0;
+        padding: 0;
+    }
+
+    // Basic Link styling
+    a,
+    span.parent{
+        color: $menu_color;
+
+        &:hover,
+        &:focus{
+            color: $item_hover_color;
+            cursor: pointer;
+        }
+    }
+
+    // first level
+    > ul{
+        width: 100%;
+        position: relative;
+        display: inline-block;
+
+        li{
+            display: inline-block;
+            line-height: 55px;
+            padding-left: 7px;
+            padding-right: 7px;
+
+            li{
+                line-height: 1.5;
+            }
+        }
+    }
+
+    // Drop Down Toggle Links
+    .fa{
+        color: $arrow_toggle_color;
+        // margin: 0 10px;
+
+        a{
+            font-size: 0;
+            padding: 0 !important;
+        }
+    }
+
+    // Second Level
+    .level-two{
+        display: none;
+        position: absolute;
+        background: $level-two_bg;
+        top: calc(100% - 7px);
+        left: auto;
+
+        > li{
+            display: block;
+            background: transparent;
+            padding: 0;
+            transition: .3s all ease;
+            position: relative;
+            white-space: nowrap;
+
+            &:hover,
+            &:focus{
+                background: $level-two_hover_bg;
+            }
+
+            a{
+                width: 100%;
+                display: block;
+                padding: 10px 7px;
+                box-sizing: border-box;
+            }
+        }
+    }
+}
+
+// Toggle Link
+@media screen and (min-width: $toggle + 1){
+    .navtoggle{
+        display: none;
+    }
+}
+
+// Responsive Version
+@media screen and (max-width: $toggle){
+    .outside{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: $responsive_width;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: $responsive_toggle_text_align;
+        z-index: 10;
+        background: $navtoggle_bg;
+        color: $navtoggle_color;
+        height: 55px;
+
+        &:hover,
+        &:focus{
+            color: $navtoggle_hover_color;
+            cursor: pointer;
+        }
+    }
+
+    .menu{
+        position: fixed;
+        height: 100%;
+        top: 0;
+        left: -320px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        transform: translate(0 0);
+        max-width: 320px;
+        transition: .3s all ease;
+
+        .navtoggle{
+            position: relative;
+            top: 0;
+            right: 0;
+            left: 0;
+            display: block;
+            text-align: right;
+            font-size: 0;
+
+            .fa{
+                font-size: 20px;
+                border: 0 solid transparent;
+
+                &:hover,
+                &:focus{
+                    background: transparent;
+                    opacity: .5;
+                }
+            }
+        }
+
+        &.active{
+            transform: translateX(320px);
+            transition: .3s all ease;
+        }
+        > ul li{
+            display: block;
+        }
+
+        .level-two{
+            position: relative;
+            left: 0;
+            top: 0;
+        }
+    }
+}

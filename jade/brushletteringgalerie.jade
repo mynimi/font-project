@@ -1,0 +1,27 @@
+- var page = { title: "Brush Lettering Project", subtitle: "Brushlettering Galerie", author: "Myriam Frisano" }
+
+doctype html
+html(lang="de")
+    include includes/head.jade
+    
+    body.gallery
+        include includes/nav.jade
+
+        header
+            include svg/bl_gallery.svg
+
+        .container
+            h1 Galerie
+            p Eine Reihe von Beispielen, wie unterschiedlich die Ergebnisse werden könnnen, auch wenn man die gleichen Tools verwendet. 
+            p Im Gegensatzu zu einem Font kann man die Buchstaben beim händischen Lettering viel eher anpassen und variieren.
+            br
+            .masonry
+                - for (var i = 1; i < 29; i++) {
+                    .img
+                        a(href="/font-project/img/brush/"+i+".jpg" data-lity)
+                            img(src="/font-project/img/brush/"+i+".jpg")
+                - }
+        include includes/footer.jade
+
+    // body end
+// html end

@@ -1,0 +1,110 @@
+blockquote{
+    font-size: 1.2em;
+    width: 95%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: 'Vollkorn', 'Times New Roman', serif;
+    font-style: italic;
+
+    cite{
+        font-style: normal;
+        font-size: .8em;
+        opacity: .8;
+        text-align: right;
+        width: 100%;
+        display: block;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+.video{
+    @include paddinghack(100%, 16, 9, 'iframe');
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.btn{
+    @extend a;
+    border: 2px solid currentColor;
+    padding: 3px 5px;
+    border-radius: 3px;
+    position: relative;
+    top: 12px;
+    line-height: 2;
+}
+
+p + {
+    h1,
+    h2,
+    h3,
+    h4{
+        margin-top: 20px;
+    }
+}
+
+h1, h2, h3, h4, h5{
+    color: darken($aqua, 10%);
+}
+
+.container{
+    padding: 30px 0 70px;
+}
+header{
+    background: {
+        image: url(/font-project/img/bg_dark.jpg);
+        size: cover;
+        position: center;
+    }
+    position: relative;
+    min-height: 300px;
+    @include flexbox(row, wrap, center, center);
+
+    svg{
+        fill: $mint !important;
+        max-width: 80%;
+        max-height: 300px;
+        padding: 20px 0;
+    }
+}
+
+footer{
+    width: 100%;
+    left: 0;
+    position: relative;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    background: $mint;
+    @include flexbox(row, wrap, space-between, center);
+
+    div{
+        width: 100%/3;
+    }
+
+    .left{
+        text-align: left;
+    }
+
+    .center{
+        text-align: center;
+
+        i{
+            padding: 0 10px;
+        }
+    }
+
+    .right{
+        text-align: right;
+    }
+}
+
+.small{
+    font-size: 80%;
+}
+
+.backtotop{
+    @extend a;
+}

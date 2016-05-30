@@ -1,0 +1,18 @@
+- var page = { title: "Brush Lettering Project", subtitle: "Digitalisieren Tutorial", author: "Myriam Frisano" }
+
+doctype html
+html(lang="de")
+    include includes/head.jade
+
+    body
+        include includes/nav.jade
+
+        header
+            include svg/help.svg
+
+        .container
+            include:markdown content/tutorial.md
+            
+        include includes/footer.jade
+    // body end
+// html end

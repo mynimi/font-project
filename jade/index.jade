@@ -1,0 +1,31 @@
+- var page = { title: "Brush Lettering Project", subtitle: "Der Trend", author: "Myriam Frisano" }
+
+doctype html
+html(lang="de")
+    include includes/head.jade
+    
+    body
+        include includes/nav.jade
+        
+        header
+            include svg/welcome.svg
+            
+        .container
+            include:markdown content/index.md
+            .grid
+                .box
+                    a(href="was-es-ist.html")
+                        img(src="/font-project/img/bl_w.jpg")
+                        h3 Was ist Brush Lettering?
+                .box
+                    a(href="#")
+                        img(src="/font-project/img/digi_w.jpg")
+                        h3 Brush Lettering Digitalisieren?
+                .box
+                    a(href="#")
+                        img(src="/font-project/img/font_w.jpg")
+                        h3 Ein Brush Lettering Font?
+        
+        include includes/footer.jade
+    // body end
+// html end

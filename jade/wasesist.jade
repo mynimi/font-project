@@ -1,0 +1,26 @@
+- var page = { title: "Brush Lettering Project", subtitle: "Was Es Ist", author: "Myriam Frisano" }
+
+doctype html
+html(lang="de")
+    include includes/head.jade
+    
+    body
+        include includes/nav.jade
+
+        header
+            include svg/whatitis.svg
+
+        .container
+            include:markdown content/was-es-ist.md
+            .masonry
+                - for (var i = 1; i < 5; i++) {
+                    .img
+                        a(href="/font-project/img/trend/"+i+".jpg" data-lity)
+                            img(src="/font-project/img/trend/"+i+".jpg")
+                - }
+
+        
+        include includes/footer.jade
+
+    // body end
+// html end

@@ -1,0 +1,244 @@
+// FONT-FACE STUFF HERE
+//-----------------------
+
+// Roboto
+//--------
+
+// light
+@font-face {
+    font-family: 'Roboto';
+    $path-part: 'Light';
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
+         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+// regular
+@font-face {
+    font-family: 'Roboto';
+    $path-part: 'Regular';
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
+         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+// bold
+@font-face {
+    font-family: 'Roboto';
+    $path-part: 'Bold';
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
+         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+// light italic
+@font-face {
+    font-family: 'Roboto';
+    $path-part: 'LightItalic';
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
+         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+// regular italic
+@font-face {
+    font-family: 'Roboto';
+    $path-part: 'Italic';
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
+         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoItalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+// bold italic
+@font-face {
+    font-family: 'Roboto';
+    $path-part: 'BoldItalic';
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
+    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
+         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoBoldItalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+// Source Code Pro
+//-----------------
+@font-face {
+    font-family: 'Source Code Pro';
+    $path-part: 'regular';
+    src: url('../fonts/sourcecodepro-#{$path-part}-webfont.eot');
+    src: url('../fonts/sourcecodepro-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcecodepro-#{$path-part}-webfont.woff') format('woff'),
+         url('../fonts/sourcecodepro-#{$path-part}-webfont.ttf') format('truetype'),
+         url('../fonts/sourcecodepro-#{$path-part}-webfont.svg#sourcecodeproregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    $path-part: 'bold';
+    src: url('../fonts/sourcecodepro-#{$path-part}-webfont.eot');
+    src: url('../fonts/sourcecodepro-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcecodepro-#{$path-part}-webfont.woff') format('woff'),
+         url('../fonts/sourcecodepro-#{$path-part}-webfont.ttf') format('truetype'),
+         url('../fonts/sourcecodepro-#{$path-part}-webfont.svg#sourcecodeprobold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+// Fourteen Dreams
+@font-face {
+    font-family: 'Fourteen Dreams';
+    src: url('../fonts/fourteendreams-regular-webfont.woff2') format('woff2'),
+         url('../fonts/fourteendreams-regular-webfont.woff') format('woff'),
+         url('../fonts/fourteendreams-regular-webfont.svg#fourteendreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-feature-settings: normal;
+    text-rendering: optimizeLegibility
+}
+
+// Fira Sans
+//------------
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/firasans-light-webfont.eot');
+    src: url('../fonts/firasans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-light-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-light-webfont.woff') format('woff'),
+         url('../fonts/firasans-light-webfont.ttf') format('truetype'),
+         url('../fonts/firasans-light-webfont.svg#fira_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/firasans-lightitalic-webfont.eot');
+    src: url('../fonts/firasans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/firasans-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/firasans-lightitalic-webfont.svg#fira_sanslight_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/firasans-italic-webfont.eot');
+    src: url('../fonts/firasans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-italic-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-italic-webfont.woff') format('woff'),
+         url('../fonts/firasans-italic-webfont.ttf') format('truetype'),
+         url('../fonts/firasans-italic-webfont.svg#fira_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/firasans-regular-webfont.eot');
+    src: url('../fonts/firasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-regular-webfont.woff') format('woff'),
+         url('../fonts/firasans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/firasans-regular-webfont.svg#fira_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/firasans-semibold-webfont.eot');
+    src: url('../fonts/firasans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-semibold-webfont.woff') format('woff'),
+         url('../fonts/firasans-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/firasans-semibold-webfont.svg#fira_sanssemibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/firasans-semibolditalic-webfont.eot');
+    src: url('../fonts/firasans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-semibolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-semibolditalic-webfont.woff') format('woff'),
+         url('../fonts/firasans-semibolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/firasans-semibolditalic-webfont.svg#fira_sanssemibold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/playfairdisplay-black-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/playfairdisplay-blackitalic-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-blackitalic-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}

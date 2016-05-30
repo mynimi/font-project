@@ -1,0 +1,32 @@
+- var page = { title: "Brush Lettering Project", subtitle: "Der Trend", author: "Myriam Frisano" }
+
+doctype html
+html(lang="de")
+    include includes/head.jade
+
+    body
+        include includes/nav.jade
+
+        .header
+            img(src="/font-project/img/14dreams.jpg")
+            
+        .container
+            h1 Fourteen Dreams
+            p Ein Brush Lettering Script Font, der das Ganze mit dem Script ernst nimmt und konstant Buchstaben verbindet.
+            br
+            p Fourteen Dreams eignet sich am besten für eher grosse Schriftgrössen.
+            
+            h2 Download
+            p Die erste Version der Schrift kann #[a(href="https://goo.gl/SUO5ms" download="fourteen-dreams-by-halfapx.zip") hier] heruntergeladen werden.
+            
+            h2 ToDo
+            p Features die noch geplant sind
+            ul
+                li Alternative Grossbuchstaben
+                li Alternative Buchstaben für Wortende
+                li Zusätzliche Ligaturen
+                li Mehr Sprachen unterstützen (mehr Glyphen)
+
+        include includes/footer.jade
+    // body end
+// html end

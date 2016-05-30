@@ -1,0 +1,18 @@
+- var page = { title: "Brush Lettering Project", subtitle: "Features", author: "Myriam Frisano" }
+
+doctype html
+html(lang="de")
+    include includes/head.jade
+
+    body
+        include includes/nav.jade
+
+        header
+            include svg/features.svg
+
+        .container
+            include:markdown content/features.md
+
+        include includes/footer.jade
+    // body end
+// html end
