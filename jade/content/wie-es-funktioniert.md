@@ -26,7 +26,7 @@ Im folgenden Video seht ihr eine recht grosse Auswahl an verschiedenen Brush Pen
 
 ### Extra: iPad Pro und Procreate
 Seit Neustem gibt es noch ein weiteres Werkzeug, welches für händisches Brush Lettering verwendet werden kann, dies allerdings in digitaler Form. Das iPad Pro.
-Ich habe einen kompletten Blogpost dazu geschrieben. Diesen und ein Downloadlink zu meinen eigenen Procreate Lettering Pinseln findet ihr hier: [Brush Lettering 2.0](http://halfapx.com/Brush Lettering-mit-ipad-pro/)
+Ich habe einen kompletten Blogpost dazu geschrieben. Diesen und ein Downloadlink zu meinen eigenen Procreate Lettering Pinseln findet ihr hier: [Brush Lettering 2.0](http://halfapx.com/brushlettering-mit-ipad-pro/)
 
 ## Spannenderes Brush Lettering
 Im Folgenden möchte ich auf verschiedene einfache Techniken und Lieblingstools eingehen, die das Brush Lettering Vergnügen noch steigern können.

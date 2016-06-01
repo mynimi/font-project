@@ -26,14 +26,30 @@ blockquote{
     margin-top: 20px;
 }
 
+p a{
+    border-bottom: 1px solid currentColor;
+
+    &:hover{
+        border-bottom-color: transparent;
+    }
+}
+
 .btn{
     @extend a;
     border: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
     padding: 3px 5px;
-    border-radius: 3px;
     position: relative;
     top: 12px;
     line-height: 2;
+
+    p &{
+        border-bottom-width: 2px;
+
+        &:hover{
+            border-bottom-color: currentColor;
+        }
+    }
 }
 
 p + {

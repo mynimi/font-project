@@ -6,7 +6,7 @@ Fourteen Dreams bestitzt:
 * 11 Alternative Buchstaben
 Sie alle zusammen gewährleisten, dass die Schrift immer schön verbunden ist, ohne seltsame Überschneidungen.
 
-Fourteen Dreams ist im Open Type Format geschrieben, das heisst, dass alle diese Alternativbuchstaben automatisch verwendet werden können. Zum Teil muss dies allerdings noch aktiviert werden. Wie das in verschiedenen Programmen geht, wird auf der Verwendungspage erklärt. <a href="verwendung.html">Link dorthin</a>
+Fourteen Dreams ist im Open Type Format geschrieben, das heisst, dass alle diese Alternativbuchstaben automatisch verwendet werden können. Zum Teil muss dies allerdings noch aktiviert werden. Wie das in verschiedenen Programmen geht, wird auf der [Verwendungspage](/font-project/font/verwendung/) erklärt.
 
 ## Visuell
 ![opentype](/font-project/img/font/opentype.gif)

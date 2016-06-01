@@ -1,4 +1,4 @@
-# Tutorial
+# Wie geht das Digitalisieren?
 Die Digitaliserungsarbeit mit einem Pen-Tool ist die beste Methode für die "smoothsten" Ergebnisse.
 Um möglichst wenig ungewollte Ecken und Kanten zu haben, ist es das Ziel, möglichst wenige Pfadpunkte zu setzen. Die Punkte werden immer nur an den Höhen und Tiefen der Kurven gesetzt.
 
