@@ -3,7 +3,7 @@ Im Gegensatz zur klassischen Kalligraphie mit Spitzfeder folgt Brush Lettering w
 Trotzdem kann man sich aus der klassischen Kalligraphie bedienen. Dort gibt es 8 Grundstriche. Die Grundidee dieser Striche lässt sich auch aufs Brush Lettering übertragen. Ich zeige sie im folgenden Video (wobei ich den Ton und den nervigen Autofokus entschuldigen muss)
 Basierend auf diesen Strichen lassen sich dann alle Buchstaben des Alphabets zusammensetzen.
 
-<div class="video"><iframe src="https://www.youtube.com/embed/KUvcAAAkGO0"></iframe></div>
+<div class="video"><iframe src="https://www.youtube.com/embed/KUvcAAAkGO0" allowfullscreen></iframe></div>
 
 ## Brush Lettering Tools
 Das Werkzeug, welches schon durch den Namen impliziert wird, ist hier nicht automatisch die erste Wahl. Brush Lettering kann mit vielen verschiedenen Tools gemacht werden. Grundsätzlich kann man die Werkzeuge in drei Kategorien aufteilen.
@@ -22,7 +22,7 @@ Bei Pinseln ist die Variation noch grösser als bei den Fude und Felt Pens. Es k
 
 Im folgenden Video seht ihr eine recht grosse Auswahl an verschiedenen Brush Pens und wie es aussieht, wenn man "hello" damit schreibt.
 
-<div class="video"><iframe src="https://www.youtube.com/embed/aB21vNDR4QI"></iframe></div>
+<div class="video"><iframe src="https://www.youtube.com/embed/aB21vNDR4QI" allowfullscreen></iframe></div>
 
 ### Extra: iPad Pro und Procreate
 Seit Neustem gibt es noch ein weiteres Werkzeug, welches für händisches Brush Lettering verwendet werden kann, dies allerdings in digitaler Form. Das iPad Pro.
@@ -33,23 +33,23 @@ Im Folgenden möchte ich auf verschiedene einfache Techniken und Lieblingstools 
 
 ### Schatten
 Hier wird einfach das Wort geschrieben (in diesem Falle mit einem Tombow Dual Brush Pen) und dann mit einem Fude Pen (hier Kuretake Disposable Brush Pen fine) ein Schatten gezeichnet. So entsteht ein Dreidimensionaler Effekt.
-<div class="video"><iframe src="https://www.youtube.com/embed/t2EJmCCqVYw"></iframe></div>
+<div class="video"><iframe src="https://www.youtube.com/embed/t2EJmCCqVYw" allowfullscreen></iframe></div>
 
 ### Wasserfarbengradient
 Das ist eine meiner Lieblinstechniken. Man mischt hier zwei verschiedene Farben auf dem Pinsel, sodass Mischungen entstehen.
-<div class="video"><iframe src="https://www.youtube.com/embed/CLSROTEbvtY"></iframe></div>
+<div class="video"><iframe src="https://www.youtube.com/embed/CLSROTEbvtY" allowfullscreen></iframe></div>
 
 ### Finetec und schwarzes Papier
 Finetec ist eine Marke, die Perlglanzfarben erstellt. Sie sind für Kalligraphie gemacht, eignen sich aber wunderbar für Brush Lettering. Und auf schwarzem Tonpapier kommt der Effekt noch viel mehr zur Geltung.
-<div class="video"><iframe src="https://www.youtube.com/embed/hp51M7wjpQw"></iframe></div>
+<div class="video"><iframe src="https://www.youtube.com/embed/hp51M7wjpQw" allowfullscreen></iframe></div>
 
 ### Masking Fluid
 Masking Fluid ist Maskierflüssigkeit, die sich mit einem Pinsel auf Wasserfarbenpapier auftragen lässt. Dann kann darüber ein "Blob" aus Wasserfarben gemalt werden, was dann in diesem Negativ-Effekt resultiert.
-<div class="video"><iframe src="https://www.youtube.com/embed/irduJUjrwJs"></iframe></div>
+<div class="video"><iframe src="https://www.youtube.com/embed/irduJUjrwJs" allowfullscreen></iframe></div>
 
 ### Brush Lettering 2.0
 Lettering mit dem iPad Pro und Procreate. Der zweite Teil zeigt noch ein zusätzliches Feature von Procreate. Es kann Videos des Prozesses abspeichern, sodass man jeden Strich nachvollziehen kann.
-<div class="video"><iframe src="https://www.youtube.com/embed/HdbUM9v44C8"></iframe></div>
+<div class="video"><iframe src="https://www.youtube.com/embed/HdbUM9v44C8" allowfullscreen></iframe></div>
 
 ### Mehr Beispiele
 Mehr Letteringvideos und Beispiele meinerseits finden sich auf Instagram.
