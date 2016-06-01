@@ -7,4 +7,4 @@ Nun, ich war begeistert. Frustriert, kurz einem Herzinfarkt nahe, hysterisch, hy
 Ich habe aus einer händisch mit einem Pinsel gezeichneten Schrift etwas gemacht, womit man auf dem Computer Buchstaben darstellen kann. Ich hab einen Font gemacht. Eine Computerschrift, aus meinem Brush Lettering.
 Was genau dieses Brush Lettering ist, wie man es händisch macht, digitalisiert und zu einer Schrift verarbeitet, fragst du dich?
 
-Besuche meine Projekt-Website. 10 Videos, 123 Bilder, 12334353 Worte und der kostenlose Download meiner Schrift warten dort auf dich.
+Besuche meine Projekt-Website. 16 Videos, 70 Bilder, 3000 Worte und der kostenlose Download meiner Schrift warten dort auf dich.
