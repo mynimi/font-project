@@ -1,6 +1,7 @@
 # Wie Funktioniert Brush Lettering?
 Im Gegensatz zur klassischen Kalligraphie mit Spitzfeder folgt Brush Lettering weniger Regeln. Es gibt ein paar Grundsätze, die für Konsistenz und eine schöne Optik sorgen, wie zum Beispiel, dass man bei den Strichen nach unten mehr Druck auf den Pinsel gibt als bei den Strichen nach oben und wenn man mit einem Winkel schreibt, sollte dieser immer beibehalten werden. Es gibt auch keine genauen Beispiele davon, wie ein Buchstabe aussehen sollte. Man kann tun und lassen, was man will.
 Trotzdem kann man sich aus der klassischen Kalligraphie bedienen. Dort gibt es 8 Grundstriche. Die Grundidee dieser Striche lässt sich auch aufs Brush Lettering übertragen. Ich zeige sie im folgenden Video (wobei ich den Ton und den nervigen Autofokus entschuldigen muss)
+Basierend auf diesen Strichen lassen sich dann alle Buchstaben des Alphabets zusammensetzen.
 
 <div class="video"><iframe src="https://www.youtube.com/embed/KUvcAAAkGO0"></iframe></div>
 
